@@ -228,7 +228,7 @@ body {
     display: none;
   }
   .w-75{
-    width: 100%!IMPORTANT;
+    width: 100%!important;
   }
 }
 
@@ -257,7 +257,7 @@ body {
     display: none;
   }
   .w-75{
-    width: 100%!IMPORTANT;
+    width: 100%!important;
   }
 }
 .navbar-light .navbar-toggler {
@@ -272,5 +272,5 @@ a{
   text-decoration: none!IMPORTANT;
 }
 .w-75{
-  width: 85%!IMPORTANT;
+  width: 85%;
 }
