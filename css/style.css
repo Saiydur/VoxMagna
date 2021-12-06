@@ -1,5 +1,5 @@
 *{
-  font-family: prototype;
+  font-family: 'Roboto', sans-serif;
 }
 p{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
@@ -11,7 +11,6 @@ p{
   background-position: center center;
   background-repeat: no-repeat; }
 #Header{
-    background-color:#000000!Important;
     opacity: 0.9;
 }
 .link-secondary, .btn-link{
@@ -19,12 +18,14 @@ p{
     text-decoration: none!Important;
 }
 #letsConnect{
-    border-color: #ffffff;
-    border-radius: 50px;
-}
-#letsConnect:hover{
-    background-color: #B9A646;
-    color: #000000;
+    background-color: transparent!Important;
+    color: #ffffff!Important;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    border-color: #FFFFFF;
 }
 #btnAskQus{
      border-color: blue;
@@ -61,9 +62,11 @@ p{
   background-color: #ffffff!IMPORTANT;
 }
 input{
-  border:none!IMPORTANT;
-  border-radius: 50px!IMPORTANT;
-  background-color: #D6D6D6!IMPORTANT;
+  margin: 0;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  opacity: 0.5;
 }
 hr{
   color: #ffffff!IMPORTANT;
@@ -98,8 +101,9 @@ hr{
 .card-body {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
 }
 .glove {
   position: absolute;
@@ -227,4 +231,11 @@ body {
   #premiumstep2{
     display: block!IMPORTANT;
   }
+}
+.navbar-light .navbar-toggler {
+  color: #000000!IMPORTANT;
+  border-color: #ffffff!IMPORTANT;
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
