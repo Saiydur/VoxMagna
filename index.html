@@ -60,7 +60,7 @@
           </ul>
         </div>
         <div>
-          <button id="letsConnect" class="d-flex">Lets Connect</button>
+          <a href="#letsconnect"><button id="letsConnect" class="d-flex">Lets Connect</button></a>
         </div>
       </nav>
       <div class="container-fluid p-4">
@@ -575,9 +575,9 @@
               <h1>Sitemap</h1>
               <h6 class="text-left">
                 <a href="">Home</a><br>
-                <a href="">Services</a><br>
-                <a href="">About</a><br>
-                <a href="">Contact</a><br>
+                <a href="#services">Services</a><br>
+                <a href="#aboutus">About</a><br>
+                <a href="#contactus">Contact</a><br>
               </h6>
             </div>
           </div>
@@ -585,7 +585,10 @@
             <div class="card-dark text-left">
               <h1>Social Media</h1>
               <h6 class="text-left">
-                <a href="">Discord</a><br>
+                <a href="https://discord.gg/Adjkt7b3">Discord</a><br>
+              </h6>
+              <h6 class="text-left">
+                <a href="https://t.me/voxmagna0">Telegram</a><br>
               </h6>
             </div>
           </div>
@@ -618,6 +621,13 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
+    $(document).ready(function() {
+      let btn = $('.btn-ash');
+      //if btn click then direct to contact us form
+      btn.click(function() {
+        window.location.href = "#letsconnect";
+      });
+    });
   </script>
 </body>
 
