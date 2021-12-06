@@ -216,9 +216,19 @@ body {
   #premiumstep2{
     display: block!IMPORTANT;
   }
-  video{
-    width:250px;
-    height:350px;
+  #video{
+    width: 250px !important;;
+    height: 350px !important;;
+  }
+  #videobanner{
+    width: 250px !important;;
+    height: 350px !important;;
+  }
+  #iconSend{
+    display: none;
+  }
+  .w-75{
+    width: 100%!IMPORTANT;
   }
 }
 
@@ -235,9 +245,19 @@ body {
   #premiumstep2{
     display: block!IMPORTANT;
   }
-  video{
-    width:250px;
-    height:350px;
+  #video{
+    width: 250px !important;;
+    height: 350px !important;;
+  }
+  #videobanner{
+    width: 250px !important;;
+    height: 350px !important;;
+  }
+  #iconSend{
+    display: none;
+  }
+  .w-75{
+    width: 100%!IMPORTANT;
   }
 }
 .navbar-light .navbar-toggler {
@@ -250,4 +270,7 @@ body {
 a{
   color: #FFFFFF!IMPORTANT;
   text-decoration: none!IMPORTANT;
+}
+.w-75{
+  width: 85%!IMPORTANT;
 }
